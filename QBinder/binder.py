@@ -21,7 +21,7 @@ import inspect
 import tempfile
 from functools import partial
 from collections import OrderedDict
-from Qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 
 from .util import nestdict
 from .binding import Binding, FnBinding, BindingProxy
