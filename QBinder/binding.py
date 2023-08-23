@@ -16,7 +16,7 @@ import inspect
 import traceback
 from collections import OrderedDict
 from contextlib import contextmanager
-from Qt import QtCore, QtGui
+from qtpy import QtCore, QtGui
 from .eventhook import QEventHook
 from .hook import MethodHook
 
