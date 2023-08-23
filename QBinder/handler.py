@@ -17,7 +17,7 @@ import six
 from .binding import Binding
 from .util import ListGet
 from .eventhook import Iterable
-from Qt import QtWidgets, QtCore
+from qtpy import QtWidgets, QtCore
 
 
 class HandlerBase(object):
