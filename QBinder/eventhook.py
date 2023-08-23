@@ -21,7 +21,7 @@ import six
 import inspect
 from functools import partial
 
-from Qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 
 
 class QEventHook(QtCore.QObject):
